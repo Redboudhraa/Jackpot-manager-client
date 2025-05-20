@@ -1,38 +1,28 @@
-.App {
-  text-align: center;
+.table-success {
+  animation: highlight 3s ease-in-out;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+@keyframes highlight {
+  0% {
+    background-color: rgba(25, 135, 84, 0.2);
+  }
+  50% {
+    background-color: rgba(25, 135, 84, 0.5);
+  }
+  100% {
+    background-color: rgba(25, 135, 84, 0.2);
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.card {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-.App-link {
-  color: #61dafb;
+.card-header {
+  font-weight: 600;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* Make the input and button sizes consistent */
+.input-group .form-control {
+  min-width: 100px;
 }
