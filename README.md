@@ -18,7 +18,7 @@ This is the React frontend for the Mini Jackpot Manager application.
    
    Open `src/services/api.ts` and update the `API_URL` constant to match your backend API URL:
    ```typescript
-   const API_URL = 'https://localhost:7001/api'; // Update with your backend URL
+   const API_URL = 'https://localhost:7176/api'; // Update with your backend URL
    ```
 
 3. Start the development server:
