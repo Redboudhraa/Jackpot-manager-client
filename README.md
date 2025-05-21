@@ -67,4 +67,4 @@ npm run build
 This will create a `build` folder with optimized production files.
 
 
-![Mini Jackpot Manager Screenshot](https://fv5-4.files.fm/down.php?i=8ra8g4fpcm&view&n=JacpotMini.png)
+![Mini Jackpot Manager Screenshot](./JacpotMini.png)
