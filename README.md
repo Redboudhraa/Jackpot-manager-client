@@ -9,6 +9,11 @@ This is the React frontend for the Mini Jackpot Manager application.
 
 ## Setup and Installation
 
+0. Clone the repository:
+   ```
+   git clone https://github.com/Redboudhraa/Jackpot-manager-client.git
+   cd Jackpot-manager-client
+
 1. Install dependencies:
    ```
    npm install
@@ -60,3 +65,6 @@ npm run build
 ```
 
 This will create a `build` folder with optimized production files.
+
+
+![Mini Jackpot Manager Screenshot](https://fv5-4.files.fm/down.php?i=8ra8g4fpcm&view&n=JacpotMini.png)
